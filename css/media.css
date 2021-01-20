@@ -1,3 +1,159 @@
+@media (max-width: 1156px){
+    .services_items {
+        display: block;
+    }
+    .services_item {
+        max-width: 80%;
+        margin: 30px auto;
+        min-height: 330px;
+    }
+
+    .form_inner {
+        background-image: none;
+    }
+
+    .news_inner {
+        display: block;
+    }
+
+    .news_slider {
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .news_blog {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .news_blog::after {
+        content:" ";
+        clear: both;
+        display: block;
+    }
+
+    .news_img {
+        float: left;
+        margin-right: 50px;
+    }
+
+    .news {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 1150px){
+    .footer_info {
+        max-width: 465px;
+        margin: 0 0 25px 0;
+    }
+    .footer_inner {
+        display: block;
+    }
+    .footer_map {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .slider .slick_btn{
+        display: none !important;
+    }
+
+    /* .slick-dots {
+        display: block;
+    } */
+
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 5px;
+    }
+    /* Активная точка */
+    .slider .slick-dots li.slick-active button{
+        background-color: transparent;
+        border: 1px solid #ffc222;
+
+    }
+    /* Элемент точки */
+    .slider .slick-dots li button{
+        font-size: 0;
+        border: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #ffc222;
+        border-radius: 50%;
+    }
+
+    
+
+    .slick-list {
+        margin-bottom: 50px;
+    }
+
+    .services_top,
+    .news_top {
+        display: block;  
+    }
+
+    .services_title_box,
+    .form_title_box, 
+    .news_title_box ,
+    .news_top {
+        padding-left: 0;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+
+    .services_title::before,
+    .form_title::before,
+    .news_title::before  {
+        display: none;
+    }
+
+    .services_btn {
+        text-align: center; 
+    }
+
+    .fotm_box_inner,
+    .advantages_inner {
+        display: block;
+    }
+
+    .form_box_left,
+    .form_box_right,
+    .advantages_item {
+        max-width: 100%;
+    }
+
+    .fotm_box_inner .jq-selectbox__select {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        padding-bottom: 25px;
+    }
+
+    .advantages_item {
+        margin-bottom: 30px;
+    }
+    .news_slider_inner .slick-prev,
+    .news_slider_inner .slick-next  {
+        bottom: -150px;
+    }
+
+    
+
+}
+
+
+
 @media (max-width: 700px){
     .header_contacts {
         text-align: center; 
@@ -5,16 +161,100 @@
     .header_btn {
         float: none;
     }
+    
+    .header_btn_menu {
+        display: block;
+        font-size: 28px;
+    
+    }
+    
+    
+
+    .menu ul {
+        display: none;
+        position: absolute; 
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu li + li {
+        padding-left: 0;
+    }
+
+    .menu a {
+        display: block;
+        background: #ffc222;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
 }
 
+@media (max-width: 600px){
+    .services_item {
+        max-width: 100%;
+        margin: 30px auto;
+        min-height: 375px;
+    }
+}
+
+@media (max-width: 540px){
+    .news_slider {
+        padding: 50px 15px 25px 25px;
+    }
+    
+    .news_slider::before {
+        left: 25px;
+    }
+
+    .news_slider_inner .slick-next {
+        right: -15px;
+    }
+
+    .news_slider_inner .slick-prev {
+        right: 35px;
+    }
+
+    .news_img {
+        float: none;
+    }
+}
+
+
+@media (max-width: 500px){
+    .slider_title {
+        font-size: 24px;
+        
+    }
+    .slider_text {
+        font-size: 16px;
+    }
+}
 @media (max-width: 400px){
     .header_btn::before {
         display: block;
+    }
+
+    .advantages_item {
+        padding: 0 0;
     }
 }
 
 @media (max-width: 375px){
     .header_email {
         padding-right: 30px;
+    }
+}
+
+
+@media (min-width: 700px){
+    .menu ul {
+        display: block !important;
     }
 }

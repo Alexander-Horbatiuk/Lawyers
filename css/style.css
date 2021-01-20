@@ -102,6 +102,16 @@ body{
 }
 .header_logo {
 }
+
+.header_btn_menu {
+    display: none;
+}
+.slick-dots {
+    display: none;
+}
+.news_slider_inner li{
+        display: none;
+    }
 .menu li{
     display: inline-block;
     box-sizing: border-box;
@@ -778,13 +788,13 @@ body{
 }
 /* ____________________MAP_____ */
 .footer_map {
-    padding: 10px 0px 0px;
-}
-
-.footer_map .iframe {
+    padding-top: 10px;
     max-width: 630px;
     width: 100%;
-    min-height: 250px;
+}
+
+.footer_map iframe {
+    width: 100%;
 }
 
 .footer_inner .header_btn{
