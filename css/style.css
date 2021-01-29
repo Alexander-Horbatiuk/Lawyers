@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
     display: inline-block;
@@ -39,19 +40,49 @@ body{
 
 /* _______________________phone____ */
 .header_phone,
-.header_email {
+.header_email,
+.header_inst {
     color: #cbcacb;
     letter-spacing: 0.25px;
     line-height: 45px;
     position: relative;
 }
+
+.header_email {
+    margin: 0 30px 0 0;
+}
 .header_phone {
-    padding: 0 30px 0 20px;
+    margin: 0 30px 0 0;
+    padding: 0 0 0 20px;
 }
 .header_phone::before {
     content: "\f095";
     font-family: 'icomoon' !important;
     position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.header_inst {
+    padding: 0 0 0 20px;
+}
+
+.header_inst::before {
+    content: "\f16d";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.header_facebooke {
+
+}
+
+.header_facebooke::before {
+    content: "\f082";
+    font-family: 'icomoon' !important;
+    /* position: absolute; */
     left: 0;
     color: #ffc222;
 }
@@ -93,29 +124,71 @@ body{
 }
 
 .header_content {
-    padding: 33px 0 23px;
+    padding: 10px 0;
 }
 
 .header_content_inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 .header_logo {
+    background: url(../img/femida_logo.png)center no-repeat;
+    background-size:100%;
+    width: 90px;
+    height: 90px;
 }
+
 
 .header_btn_menu {
     display: none;
 }
-.slick-dots {
+
+.container .slider_inner  ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* display: none; */
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -160px;
+    }
+
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 5px;
+    }
+    /* Активная точка */
+    .slider .slick-dots li.slick-active button{
+        background-color: transparent;
+        border: 1px solid #ffc222;
+
+    }
+    /* Элемент точки */
+    .slider .slick-dots li button{
+        font-size: 0;
+        border: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #ffc222;
+        border-radius: 50%;
+    }
+
+
+
+
+.news_slider_inner li{
     display: none;
 }
-.news_slider_inner li{
-        display: none;
-    }
+
 .menu li{
     display: inline-block;
     box-sizing: border-box;
 }
+
 .menu a {
     font-family: 'Roboto', sans-serif;
     color: #323232;
@@ -127,9 +200,13 @@ body{
 }
 
 .menu a:hover {
-    /* transition: 1s; */
     border: 1px solid #ffc222;
 }
+
+.menu .header_index {
+    border: 1px solid #ffc222;
+}
+
 .menu li + li {
     padding: 0 0 0 10px;
 }
@@ -153,7 +230,7 @@ body{
     top: 70%;
     z-index: 10;
     width: 40px;
-    min-height: 40px;
+    height: 40px;
     border: 1px solid #fff;
 
     cursor: pointer;
@@ -410,7 +487,9 @@ body{
 
 .form_inner {
     padding: 0 0 40px 0;
-    background: url(../img/woman_form.png)no-repeat;
+        background: url(../img/femida.png)no-repeat;
+    background-size: 20%;
+    /* background: url(../img/woman_form.png)no-repeat; */
     font-size: cover;
     min-height: 460px;
     background-position: bottom right;
@@ -465,6 +544,7 @@ body{
     border: 1px solid #e6e6e6;
     padding: 0px 0px 0px 17px; 
 }
+
 /* ____________jQuery__syle___________ */
 .fotm_box_inner .jq-selectbox.jqselect {
     display: block;
@@ -839,3 +919,4 @@ body{
     border: none;
     cursor: pointer;
 }
+
