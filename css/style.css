@@ -175,6 +175,7 @@ body{
         height: 15px;
         background-color: #ffc222;
         border-radius: 50%;
+        outline: none;
     }
 
 
@@ -426,6 +427,10 @@ body{
     font-size: 14px;
 }
 
+.services_item_text li {
+    list-style: square outside;
+}
+
 .services_item_btn {
     position: absolute;
     bottom: 40px;
@@ -457,7 +462,7 @@ body{
 }
 
 .about_inner {
-    max-width: 545px;
+    max-width: 700px;
 }
 
 .about_title {
@@ -760,6 +765,14 @@ body{
 .news_slider_inner .slick-disabled::before {
     color: #dadada;
 }
+
+.case_law {
+    background: url(/img/case_law.jpg)center no-repeat;
+    background-size:100%;
+    max-width: 350px;
+    min-height: 450px;
+
+}
 /* __________________________NEWS BLOG______ */
 .news_blog {
     max-width: 260px;
@@ -901,6 +914,7 @@ body{
 #animatedModal {
     max-width: 300px;
     width: 100%;
+    text-align: center;
 }
 #animatedModal input{
     display: block;
@@ -920,3 +934,88 @@ body{
     cursor: pointer;
 }
 
+
+
+
+
+
+/* ____________jQuery__syle___________ */
+
+.jq-selectbox select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 10;
+}
+
+#animatedModal .jq-selectbox.jqselect {
+    display: block;
+    width: 100%;
+}
+#animatedModal .jq-selectbox__select {
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 0px 0px 5px; 
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 20px;
+    text-align: start;
+}
+#animatedModal .jq-selectbox__trigger-arrow::before {
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    transform: rotate(90deg);
+
+}
+#animatedModal .jq-selectbox__dropdown {
+	width: 100%;
+	margin: 2px 0 0;
+	padding: 0;
+	border: 1px solid #e6e6e6;
+	background: #FFF;
+    top: 40px;
+}
+
+#animatedModal .jq-selectbox li {
+	min-height: 18px;
+	padding: 5px 5px 6px;
+    color: #231F20;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #A3ABB1;
+}
+#animatedModal .jq-selectbox li.selected {
+	background-color: #A3ABB1;
+	color: #FFF;
+}
+#animatedModal .jq-selectbox li:hover {
+	background-color: #08C;
+	color: #FFF;
+}
+#animatedModal .jq-selectbox li.disabled {
+	color: #AAA;
+}
+#animatedModal .jq-selectbox li.disabled:hover {
+	background: none;
+}
+#animatedModal .jq-selectbox li.optgroup {
+	font-weight: bold;
+}
+#animatedModal .jq-selectbox li.optgroup:hover {
+	background: none;
+	color: #231F20;
+	cursor: default;
+}
+#animatedModal .jq-selectbox li.option {
+	padding-left: 25px;
+}
+/* _______________________________ */

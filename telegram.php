@@ -20,7 +20,7 @@ $arr = array(
   'Телефон: ' => $phone,
   'Email ' => $email,
   'Текст ' => $user_text,
-  'Тема ' => $select,
+  'Тема ' => $select
 );
 
 foreach($arr as $key => $value) {
@@ -35,5 +35,3 @@ if ($sendToTelegram) {
   echo "Error";
 }
 ?>
-
- 

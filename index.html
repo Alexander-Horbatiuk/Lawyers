@@ -1,390 +1,663 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Your Lawyer</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Lawyer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- <link rel="stylesheet" href="css/normalize.css"/> -->
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/fonts_icomoon.css">
-        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="css/jquery.formstyler.css">
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/fonts_icomoon.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.formstyler.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
 
-
-        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-        <script defer src="js/jquery.fancybox.min.js"></script>
-        <script defer src="js/slick.min.js"></script>
-        <script defer src="js/jquery.formstyler.min.js"></script>
-        <script defer src=" js/script.js"></script>
-    </head>
-    <body>
-        <header class="header">
-            <div class="header_top">
-                <div class="container">
-                    <div class="header_contacts">
-                        <a class="header_phone" href="tel:380935056542" >+380 (93) 505 65 42</a>
-                        <a class="header_email" href="https:/yourlawyer.od@gmail.com" target="_blank">yourlawyer.od@gmail.com</a>
-                        <a class="header_inst" href="https://instagram.com/yourrlawyer?igshid=o3bl3y4fqlxr" target="_blank"> instagram</a>
-                        <!-- <a class="header_facebooke" href="#" target="_blank"></a> -->
-                        <a class="header_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Бесплатная консультация</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header_content">
-                <div class="container">
-                    <div class="header_content_inner">
-
-                        <div class="header_logo">
-                            <a href="#" class="logo">
-                                <!-- <img src="img/logo.png"  alt="logo" /> -->
-                            </a>
-                        </div>
-                        <nav class="menu">
-                            <div class="header_btn_menu">
-                                <span class="icon-bars"></span>
-                            </div>
-                            <ul>
-                                <li><a href="index.html" class="header_index">Главная</a></li>
-                                <li><a href="about.html" class="header_about">О компании</a></li>
-                                <li><a href="services.html" class="header_services">Услуги</a></li>
-                                <li><a href="contacts.html" class="header_contacts">Контакты</a></li>
-                                <li><a href="blog.html" class="header_blog">Блог</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+    <script
+      defer
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script defer src="js/jquery.fancybox.min.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/jquery.formstyler.min.js"></script>
+    <script defer src=" js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_top">
+        <div class="container">
+          <div class="header_contacts">
+            <a class="header_phone" href="tel:380935056542"
+              >+380 (93) 505 65 42</a
+            >
+            <a
+              class="header_email"
+              href="https:/yourlawyer.od@gmail.com"
+              target="_blank"
+              >yourlawyer.od@gmail.com</a
+            >
+            <a
+              class="header_inst"
+              href="https://instagram.com/yourrlawyer?igshid=o3bl3y4fqlxr"
+              target="_blank"
+            >
+              instagram</a
+            >
+            <a
+              class="header_btn"
+              data-fancybox
+              data-animation-duration="700"
+              data-src="#animatedModal"
+              href="javascript:;"
+              >Безкоштовна консультація</a
+            >
+          </div>
         </div>
-        </header>
-        
-        <section class="slider">
-            <div class="container">
-                <div class="slider_inner">
-                    <div class="slider_item">
-                        <div class="slider_item_contant">
-                            <div class="slider_title">
-                                КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
-                            </div>
-                            <div class="slider_text"> 
-                                Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
-                            </div>
-                            <a class="slider_btn default_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">
-                                Оставить заявку
-                            </a>
-                        </div>
-                    </div>
-                    <div class="slider_item">
-                        <div class="slider_item_contant">
-                            <div class="slider_title">
-                                КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
-                            </div>
-                            <div class="slider_text"> 
-                                Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
-                            </div>
-                            <a class="slider_btn default_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">
-                                Оставить заявку
-                            </a>
-                        </div>
-                    </div>
-                    <div class="slider_item">
-                        <div class="slider_item_contant">
-                            <div class="slider_title">
-                                КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
-                            </div>
-                            <div class="slider_text"> 
-                                Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
-                            </div>
-                            <a class="slider_btn default_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">
-                                Оставить заявку
-                            </a>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
+      </div>
+      <div class="header_content">
+        <div class="container">
+          <div class="header_content_inner">
+            <div class="header_logo">
+              <a href="#" class="logo"></a>
             </div>
-        </section>
-        
-        <section class="services">
-            <div class="container">
-                <div class="services_top">
-                    <div class="services_title_box">
-                        <div class="services_title">
-                            Наши Услуги
-                        </div>
-                        <div class="services_text">
-                            Комплексный подход к вашему вопросу, 
-                            своевременная <br> правовая помощь, представление 
-                            интересов во всех судебных инстанциях
-                        </div>
-                    </div>
-                    <div class="services_btn">
-                        <a href="services.html">Показать все услуги</a>
-                    </div>
-                </div>
-
-                <div class="services_items">
-                    <div class="services_item">
-                        <img src="img/services_1.png" alt="">
-                        <div class="services_item_title">
-                            Банкротство и ликвидация
-                        </div>
-                        <div class="services_item_text">
-                            Полное прекращение существования 
-                            юридического лица с сохранением 
-                            легальности всей предыдущей 
-                            деятельности
-                        </div>
-                        <div class="services_item_btn">
-                            <a href="services.html" class="services_item_link">Подробнее</a>
-                            <a class="slider_btn default_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">
-                                Заказать
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="services_item">
-                        <img src="img/services_2.png" alt="">
-                        <div class="services_item_title">
-                            Адвокатское сопровождение
-                        </div>
-
-                        <div class="services_item_text">
-                            Мы гарантируем полное профессиональное 
-                            обслуживание клиентов в заявленных 
-                            сферах деятельности и соблюдение 
-                            конфиденциальности.
-                        </div>
-
-                        <div class="services_item_btn">
-                            <a href="services.html" class="services_item_link">Подробнее</a>
-                            <a class="slider_btn default_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">
-                                Заказать
-                            </a>
-                        </div>
-                    </div> 
-
-                    <div class="services_item">
-                        <img src="img/services_3.png" alt="">
-
-                        <div class="services_item_title">
-                            Налоговый аудит
-                        </div>
-
-                        <div class="services_item_text">
-                            Налоговый аудит проводят перед 
-                            проведением налоговых проверок; 
-                            при оценке возможных налоговых рисков; 
-                            при оптимизации налогообложения
-                        </div>
-
-                        <div class="services_item_btn">
-                            <a href="services.html" class="services_item_link">Подробнее</a>
-                            <a class="slider_btn default_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">
-                                Заказать
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        
-        <section class="about">
-            <div class="container ">
-                <div class="about_inner">
-                    <div class="about_title">О компании </div>
-
-                    <div class="about_text">
-                        Компания специализируется на оказании 
-                        услуг в сфере корпоративного права, налогового
-                        консалтинга, представительства в судах, ликвидации
-                        и банкротства предприятий. На сегодняшний день, 
-                        коллектив компании объединяет 
-                        высокопрофессиональных экспертов имеющих
-                    </div>
-
-                    <a class="about_btn default_btn" href="about.html">
-                        Узнать больше
-                    </a>
-                </div>
-                
-            </div>
-        </section>
-        
-        <section class="form">
-            <div class="container">
-                <div class="form_inner">
-                    <div class="form_contant">
-                        <div class="form_title_box">
-                            <div class="form_title">
-                                Получить Консультацию
-                            </div>
-                            <div class="form_text">
-                                Комплексный подход к вашему вопросу, 
-                                своевременная правовую помощь, представление 
-                                интересов во всех судебных инстанциях
-                            </div>
-                        </div>
-                        <div class="form_box">
-                            <form action="telegram.php" method="POST">
-                                <div class="fotm_box_inner">
-                                    <div class="form_box_left">
-                                        <label>
-                                            E-mail
-                                            <input type="text" name="user_email" required>
-                                        </label>
-                                        <label>
-                                            Контактный телефон
-                                            <input type="text" name="user_phone" required>
-                                        </label>
-                                        <label>
-                                            ФИО
-                                            <input type="text" name="user_name" required>
-                                        </label>
-                                        <label>
-                                            Тема вопроса
-                                            <select name="select" required>
-                                                <option>тема-1</option>
-                                                <option>тема-2</option>
-                                                <option>тема-3</option>
-                                                <option>тема-4</option>
-                                            </select>
-                                        </label>
-                                    </div>
-                                    <div class="form_box_right">
-                                        <label>
-                                            Сообщение
-                                            <textarea name="user_text" required></textarea>
-                                        </label>
-                                        <button class="default_btn" type="submit">Получить консультацию</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="advantages">
-            <div class="container">
-                <div class="advantages_inner">
-                    <div class="advantages_item">
-                        <div class="advantages_title">Десятки добровольных ликвидаций ежемесячно</div>
-                        <div class="advantages_text">Мы умеем минимизировать все риски в процессе добровольной ликвидации юридических лиц.</div>
-                    </div>
-                    <div class="advantages_item">
-                        <div class="advantages_title">Отличное знание законов в сфере банкротства </div>
-                        <div class="advantages_text">Позволяют нам эффективно отстаивать как интересы кредиторов, так и интересы собственников проблемной организации.</div>
-                    </div>
-                    <div class="advantages_item">
-                        <div class="advantages_title">Большой опыт сопровождения банкротства</div>
-                        <div class="advantages_text">Мы обладаем большим опытом сопровождения процедур банкротства предприятий.</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="news">
-            <div class="container">
-                <div class="news_top">
-                    <div class="news_title_box">
-                        <div class="news_title">
-                            Новости Компании
-                        </div>
-                        <div class="news_text">
-                            Комплексный подход к вашему вопросу, 
-                            своевременная <br> правовая помощь, представление 
-                            интересов во всех судебных инстанциях
-                        </div>
-                    </div>
-                    <div class="news_btn">
-                        <a href="blog.html">Открыть все новости</a>
-                    </div>
-                </div>
-                <div class="news_inner">
-                    <div class="news_slider">
-                        <div class="news_slider_inner">
-                            <div class="news_slider_item">
-                                <div class="news_slider_title">Банкротство и ликвидация предприятия в Украине</div>
-                                <div class="news_slider_text">«На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права...»</div>
-                                <div class="news_slider_author">Андрей Ворошилов, генеральный д иректор компании Bankom</div>
-                            </div>
-                            <div class="news_slider_item">
-                                <div class="news_slider_title">Банкротство и ликвидация предприятия в Украине</div>
-                                <div class="news_slider_text">«На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права...»</div>
-                                <div class="news_slider_author">Андрей Ворошилов, генеральный д иректор компании Bankom</div>
-                            </div>
-                            <div class="news_slider_item">
-                                <div class="news_slider_title">Банкротство и ликвидация предприятия в Украине</div>
-                                <div class="news_slider_text">«На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях права...»</div>
-                                <div class="news_slider_author">Андрей Ворошилов, генеральный д иректор компании Bankom</div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="news_blog">
-                        <div class="news_img">
-                            <img src="img/news_1.jpg" alt="news">
-                            <div class="news_date">03.04</div>
-                        </div>
-                        <div class="news_blog_title">Новость компании </div> 
-                        <div class="news_blog_text">На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях </div>
-                    </a>
-                    <a href="#" class="news_blog">
-                        <div class="news_img">
-                            <img src="img/news_2.jpg" alt="news">
-                            <div class="news_date">03.04</div>
-                        </div>
-                        <div class="news_blog_title">Новость компании </div> 
-                        <div class="news_blog_text"> На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer_contant">
-                <div class="container">
-                    <div class="footer_inner">
-                        <div class="footer_info">
-                            <div class="footet_title">Комплексное закрытие предприятия</div>
-                            <div class="footer_text">Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности</div>
-                            <a class="header_btn" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Бесплатная консультация</a>
-                            <ul class="footer_list">
-                                <li><a class="footer_phone" href="tel:380935056542"  target="_blank">+380 (93) 505 65 42</a></li>
-                                <li><a class="footer_posht" href="yourlawyer.od@gmail.com" target="_blank">yourlawyer.od@gmail.com</a></li>
-                                <li><a class="footer_adress" href="https://www.google.com.ua/maps/place/%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD,+%D0%9E%D0%B4%D0%B5%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.4586348,30.6995892,13z/data=!3m1!4b1!4m5!3m4!1s0x40c633d3e7db19f7:0x7a2282d913470c1e!8m2!3d46.4677633!4d30.7463506?hl=uk" target="_blank">г. Одесса</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer_map">
-                            <iframe height="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175899.85463333526!2d30.571705559548402!3d46.45988648979983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1611069227483!5m2!1sru!2sua"  frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="footer_copy">
-                    <div class="container">
-                        <div class="copy_text"> © 2020 made by Alexander Horbatiuk Все права защищены.</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-        <div id="animatedModal" class="animatedModal">
-            <form action="telegram.php/test" method="POST">
-
-                <input type="text" placeholder="Bаше имя" name="user_name" required>
-                <input type="text"  name="user_phone" required maxlength="13" placeholder="Bаш телефон">
-                
-                <input type="submit" value="Отправить">
-            </form>
+            <nav class="menu">
+              <div class="header_btn_menu">
+                <span class="icon-bars"></span>
+              </div>
+              <ul>
+                <li><a href="index.html" class="header_index">Головна</a></li>
+                <li>
+                  <a href="about.html" class="header_about">Про компанію</a>
+                </li>
+                <li>
+                  <a href="services.html" class="header_services">Послуги</a>
+                </li>
+                <li><a href="blog.html" class="header_blog">Блог</a></li>
+                <li>
+                  <a href="header_сareer.html" class="header_сareer">Кар'єра</a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="header_contacts">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-    </body>
+      </div>
+    </header>
+
+    <section class="slider">
+      <div class="container">
+        <div class="slider_inner">
+          <div class="slider_item">
+            <div class="slider_item_contant">
+              <div class="slider_title">Професійна юридична допомога</div>
+              <div class="slider_text">
+                Державна реєстрація бізнесу в Україні. Юридичне та бухгалтерське
+                обслуговування. Бізнес консалтинг.
+              </div>
+              <a
+                class="slider_btn default_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+              >
+                Залишити заявку
+              </a>
+            </div>
+          </div>
+          <div class="slider_item">
+            <div class="slider_item_contant">
+              <div class="slider_title">
+                Ліцензування у сфері дошкільної освіти
+              </div>
+              <div class="slider_text">
+                Підготовка повного комплекту документів для отримання ліцензії
+                на центр розвитку дитини, дитячий клуб, приватний садок.
+                Комплексне юридичне та бухгалтерське обслуговування. Реєстрація
+                пожежної декларації. Розробка документації з охорони праці та
+                пожежної безпеки.
+              </div>
+              <a
+                class="slider_btn default_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+              >
+                Залишити заявку
+              </a>
+            </div>
+          </div>
+          <div class="slider_item">
+            <div class="slider_item_contant">
+              <div class="slider_title">
+                Комплексне бухгалтерське обслуговування
+              </div>
+              <div class="slider_text">
+                Бухгалтерське обслуговування юридичних осіб (ТОВ з ПДВ, ТОВ, ПП)
+                та фізичних осіб підприємців на будь-якій системі оподаткування.
+                Ведення бухгалтерії неприбуткових организацій - Громадських
+                організацій, Благодійних фондів.
+              </div>
+              <a
+                class="slider_btn default_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+              >
+                Залишити заявку
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="services_top">
+          <div class="services_title_box">
+            <div class="services_title">Наші Послуги</div>
+            <div class="services_text">
+              Комплексний підхід до Вашого питання, своєчасна правова допомога,
+              підготовка процесуальних документів, представництво в будь-яких
+              інстанціях
+            </div>
+          </div>
+          <div class="services_btn">
+            <a href="services.html">Перейти до послуг</a>
+          </div>
+        </div>
+
+        <div class="services_items">
+          <div class="services_item">
+            <img src="img/services_1.png" alt="" />
+            <div class="services_item_title">
+              Юридичні послуги для бізнесу | корпоративне право
+            </div>
+            <div class="services_item_text">
+              Професійні правові послуги та консультації для юридичних осіб та
+              фізичних осіб-підприємців з питань державної реєстрації та
+              подальшої діяльності
+            </div>
+            <div class="services_item_btn">
+              <a href="services.html" class="services_item_link">Детальніше</a>
+              <a
+                class="slider_btn default_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+              >
+                Замовити
+              </a>
+            </div>
+          </div>
+
+          <div class="services_item">
+            <img src="img/services_2.png" alt="" />
+            <div class="services_item_title">
+              Ліцензування | <br />
+              дозвільна документація
+            </div>
+
+            <div class="services_item_text">
+              Підготовка комплексного пакету документів для отримання ліцензії у
+              будь-якій сфері діяльності - дошкільна освіта, медична практика,
+              торгівля алкогольними напоями тощо. Юридичний супровід отримання
+              Ліцензії. Анулювання, переоформлення, видача дубліката Ліцензії.
+            </div>
+
+            <div class="services_item_btn">
+              <a href="services.html" class="services_item_link">Детальніше</a>
+              <a
+                class="slider_btn default_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+              >
+                Замовити
+              </a>
+            </div>
+          </div>
+
+          <div class="services_item">
+            <img src="img/services_3.png" alt="" />
+
+            <div class="services_item_title">
+              Юридичні послуги | <br />
+              для громадян
+            </div>
+
+            <div class="services_item_text">
+              Захист прав і законних інтересів громадян у сімейних спорах,
+              цивільних правовідносинах. Юридичний супровід договірних відносин.
+              Захист прав споживачів. Підготовка різноманітних заяв,
+              процесуальних документів (позов, відзив, клопотання), договорів.
+            </div>
+
+            <div class="services_item_btn">
+              <a href="services.html" class="services_item_link">Детальніше</a>
+              <a
+                class="slider_btn default_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+              >
+                Замовити
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about_inner">
+          <div class="about_title">Про компанію</div>
+
+          <div class="about_text">
+            Юридична компанія "YOUR LAWYER" - українська юридична фірма, що
+            надає послуги в різних сферах бізнес-права компаніям і приватним
+            особам. Ми спеціалізуємося на наданні юридичних послуг у сфері
+            корпоративного права, цивільного та сімейного права, представництва
+            в судах, ліквідації та банкрутства підприємств. На сьогоднішній
+            день, колектив компанії об'єднує високопрофесійних експертів мають
+            значний досвід при вирішенні правових спорів і питань. Зважена
+            цінова політика і клієнтоорієнтованість робить нас унікальним
+            постачальником юридичних послуг в Одесі та Одеській області. Наш
+            орієнтир - довгострокова та плідна співпрація з клієнтами компанії.
+          </div>
+
+          <a class="about_btn default_btn" href="about.html"
+            >Дізнатися більше
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container">
+        <div class="form_inner">
+          <div class="form_contant">
+            <div class="form_title_box">
+              <div class="form_title">Отримати Консультацію</div>
+              <div class="form_text">
+                Комплексний підхід до Вашого питання, своєчасна правова
+                допомога, підготовка процесуальних документів, представництво в
+                будь-яких інстанціях
+              </div>
+            </div>
+            <div class="form_box">
+              <form action="telegram.php" method="POST">
+                <div class="fotm_box_inner">
+                  <div class="form_box_left">
+                    <label>
+                      E-mail
+                      <input type="text" name="user_email" required />
+                    </label>
+                    <label>
+                      Контактний телефон
+                      <input type="text" name="user_phone" required />
+                    </label>
+                    <label>
+                      ПІБ
+                      <input type="text" name="user_name" required />
+                    </label>
+                    <label>
+                      Тема питання
+                      <select name="select" required>
+                        <option>Послуги для бізнесу</option>
+                        <option>Послуги для неприбуткових організацій</option>
+                        <option>Сімейне право</option>
+                        <option>Цивільне та адміністративне право</option>
+                        <option>Ліцензування</option>
+                        <option>Послуги для іноземних громадян</option>
+                        <option>Бухгалтерське обслуговування</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="form_box_right">
+                    <label>
+                      Короткий опис ситуації
+                      <textarea name="user_text" required></textarea>
+                    </label>
+                    <button class="default_btn" type="submit">
+                      Отримати консультацію
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages_inner">
+          <div class="advantages_item">
+            <div class="advantages_title">
+              Десятки Ліцензій у сфері дошкільної освіти
+            </div>
+            <div class="advantages_text">
+              Чимало приватних дитячих садків в Одесі, Харкові та Дніпрі
+              отримали Ліцензію завдяки нашій допомозі.
+            </div>
+          </div>
+          <div class="advantages_item">
+            <div class="advantages_title">Сотні зареєстрованих ТОВ та ФОП</div>
+            <div class="advantages_text">
+              Нам довіряють первинну державну реєстрацію та подальше комплексне
+              юридичне обслуговування.
+            </div>
+          </div>
+          <div class="advantages_item">
+            <div class="advantages_title">Тисячі складених документів</div>
+            <div class="advantages_text">
+              Написання різноманітних заяв та процесуальних докуметів - наша
+              прерогатива. Ми піклуємось про Ваш час та відповідаємо за
+              результат.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container">
+        <div class="news_top">
+          <div class="news_title_box">
+            <div class="news_title">Новини Компанії</div>
+            <div class="news_text">
+              Комплексний підхід до Вашого питання, своєчасна правова допомога,
+              підготовка процесуальних документів, представництво в будь-яких
+              інстанціях.
+            </div>
+          </div>
+          <div class="news_btn">
+            <a href="blog.html">Перейти до новин</a>
+          </div>
+        </div>
+        <div class="news_inner">
+          <div class="news_slider">
+            <div class="news_slider_inner">
+              <div class="news_slider_item">
+                <div class="news_slider_title">Як закрити ФОП?</div>
+                <div class="news_slider_text">
+                  В умовах пандемії малий та середній бізнес втрачає клієнтів та
+                  в кінцевому випадку просто припиняє свою діяльність.
+                  Пропонуємо розглянути алгорим дій для припинення діяльності
+                  фізичної особи-підприємця. <br />
+
+                  З чего почати?<br />
+                  1. Звертаємося до держреєстратора із заявою про припинення
+                  діяльності.<br />
+                  2. Закриваємо банківські рахунки ФОП (один залишаємо) та
+                  направляємося до податкової для зняття з обліку. До речі,
+                  ФОП-єдинник самостійно має подати заяву про відмову від
+                  спрощеної системи, зазначивши в ній дату припинення
+                  діяльності.<br />
+                  3. Сплачуємо заборгованість зі сплати єдиного податку, якщо
+                  така існує.<br />
+                  4. Подаємо ліквідаційну звітність до контролюючих органів за
+                  місцем реєстрації.Звіт з ЄСВ необхідно подати протягом 30
+                  календарних днів з дати припинення. Окрім звіту з ЄСВ,
+                  відповідно до обраної системи оподаткування ФОП необхідно
+                  подати:<br />
+                  - на загальній системі (за останній рік) — ліквідаційну
+                  декларацію про майно і доходи;на єдиному податку —
+                  ліквідаційну декларацію платника єдиного податку;<br />
+                  - ФОП платник ПДВ — ліквідаційну податкову декларацію з
+                  ПДВ.<br />
+
+                  Далі — сплатити єдиний податок та ЄСВ за повний місяць, в
+                  якому подано заяву держреєстратору та провести остаточні
+                  розрахунки.<br />
+                  5. На ФОП зареєстровані інші об’єкти? Потрібно скасувати
+                  реєстрацію: електронного цифрового підпису; РРО; ліцензій; за
+                  необхідності – припинити договори.<br />
+                  6. Перевірки. Пишемо заяву про проведення ̈ перевірки у зв’язку
+                  з припиненням підприємницької діяльності.<br />
+                  7. Пенсійний Фонд Украї̈ни: <br />
+                  - якщо немає найманих працівників – до ПФУ необхідно подати
+                  звіт про нараховані суми єдиного внеску за період роботи у
+                  звітному році та копію акта перевірки органу ДПС; <br />
+                  - якщо є наймані працівники – алгоритм дій інший. Адже перед
+                  тим як прийняти рішення про закриття ФОП та звернутись до
+                  держреєстратора необхідно звільнити та провести відповідні
+                  розрахунки з найманими працівниками. ПФУ проводить
+                  документальну перевірку щодо правильності обчислення та сплати
+                  внесків у 10-денний строк.<br />
+                </div>
+                <div class="news_slider_author">LLC "YOURLAWYER"</div>
+              </div>
+              <div class="news_slider_item">
+                <div class="news_slider_title">
+                  Юристи "YOURLAWYER" отримали чергове рішення в Одеському
+                  окружному адміністративному суді на користь клієнта!
+                </div>
+                <div class="news_slider_text">
+                  Фонд соціального захисту інвалідів подав позов на підприємство
+                  про стягнення адміністративно господарських санкцій за
+                  невиконання нормативу робочих місць, призначених для
+                  працевлаштування людей з інвалідністю у 2019 році.
+                  <p>
+                    Юристи "YOURLAWYER" з легкістю спростували всі аргументи
+                    позивача і довели, що відповідач ужив усіх необхідних
+                    заходів щодо створення робочих місць для працевлаштування
+                    осіб з інвалідністю, а пошук підходящої роботи для людей з
+                    обмеженими можливостями здійснює центр зайнятості!
+                  </p>
+                  Більш детально з рішенням можна ознайомитись в єдиному
+                  державному реєстрі судових рішень: Рішення ООАС від 16.07.2020
+                  № 420/4177/20
+                  <p>
+                    Якщо у Вас є невирішений спір з Фондом соціального захисту
+                    інвалідів - ми з радістю допоможемо Вам розібратись в
+                    ситуації та захистити Ваші права і законні інтереси.
+                  </p>
+                  <div class="case_law"></div>
+                  <!-- <img src="/img/case_law.jpg" alt=""> -->
+                </div>
+                <div class="news_slider_author">LLC "YOURLAWYER"</div>
+              </div>
+              <div class="news_slider_item">
+                <div class="news_slider_title">
+                  Кінцевий бенефіціарний власник юридичної особи 2021
+                </div>
+                <div class="news_slider_text">
+                  <p>
+                    На сьогоднішній день всім юрособам потрібно буде
+                    актуалізувати інформацію про своїх кінцевих бенефіціарних
+                    власників (контролерів). Почнемо з початку:
+                  </p>
+                  <p>Хто такий кінцевий бенефіціарний власник компанії?</p>
+
+                  Кінцевим бенефіціарним власником вважається будь-яка фізична
+                  особа, яка здійснює вирішальний вплив (контроль) на діяльність
+                  клієнта та/або фізичну особу, від імені якої проводиться
+                  фінансова операція (наприклад, директор компанії або хтось з
+                  керівництва) (п. 30 ст. 1 Закону № 361). Існує два типи
+                  бенефіціарних власників: ⠀<br />
+                  - особи, що прямо або через третіх осіб володіють часткою ≥
+                  25% в статутному капіталі; <br />
+                  - особи, що можуть контролювати діяльність компанії незалежно
+                  від формального володіння. <br />
+                  <p>
+                    Хто зобов'язаний подавати інформацію про кінцевих
+                    бенефіціарів?
+                  </p>
+
+                  Підприємства (крім державних та комунальних) зобов'язані
+                  встановлювати свого кінцевого бенефіціара, постійно обновляти
+                  та зберігати інформацію про нього і надавати її
+                  держреєстратору у випадках і в обсязі, передбачених законом
+                  (ст. 641 Господарського кодексу). ⠀<br />
+                  Зокрема, в ЄДР у складі відомостей про юридичну особу повинна
+                  бути інформація прo його кінцевого бенефіціара, а також про
+                  кінцевого бенефіціара його засновника, якщо засновник юридична
+                  особа (п. 9 частини другої ст. 9 Закону від 15.05.03 р. №
+                  755-IV «Про державну реєстрацію юридичних осіб, фізичних осіб
+                  – підприємців та громадських формувань» (далі – Закон № 755)).
+                  Тобто встановлюються усі реальні фізичні особи –
+                  вигодоотримувачі конкретної юридичної особи. <br />
+                  У разі якщо у юридичної особи або засновника (учасника) цієї
+                  юридичної особи немає кінцевого бенефіціара, то державному
+                  реєстратору надаються відомості про його відсутність. <br />
+                  <p>Хто не подає інформацію про бенефіціарів?</p>
+
+                  -якщо y юрособи усі засновники – фізичні особи є бенефіціарами
+                  (п. 9 частини другої ст. 9 Закону № 755);<br />
+                  -громадські формування; ⠀<br />
+                  -адвокатські об'єднання; ⠀<br />
+                  -ТПП; ⠀<br />
+                  -об'єднання співвласників багатоквартирних будинків; <br />⠀
+                  -релігійні організації; <br />
+                  -державні і комунальні підприємства; ⠀<br />
+                  -державні органи, органи місцевого самоврядування та ї̈х
+                  асоціації.<br />
+                </div>
+                <div class="news_slider_author">LLC "YOURLAWYER"</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="news_blog">
+            <div class="news_img">
+              <img src="img/news_1.jpg" alt="news" />
+              <div class="news_date">03.04</div>
+            </div>
+            <div class="news_blog_title">Новина компанії</div>
+            <div class="news_blog_text">
+              На сегодняшний день, коллектив компании объединяет
+              высокопрофессиональных экспертов имеющих специализации в отдельных
+              областях
+            </div>
+          </a>
+          <a href="#" class="news_blog">
+            <div class="news_img">
+              <img src="img/news_2.jpg" alt="news" />
+              <div class="news_date">03.04</div>
+            </div>
+            <div class="news_blog_title">Новина компанії</div>
+            <div class="news_blog_text">
+              На сегодняшний день, коллектив компании объединяет
+              высокопрофессиональных экспертов имеющих специализации в отдельных
+              областях
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_contant">
+        <div class="container">
+          <div class="footer_inner">
+            <div class="footer_info">
+              <div class="footet_title">Комплексное закрытие предприятия</div>
+              <div class="footer_text">
+                Полное прекращение существования юридического лица с сохранением
+                легальности всей предыдущей деятельности
+              </div>
+              <a
+                class="header_btn"
+                data-fancybox
+                data-animation-duration="700"
+                data-src="#animatedModal"
+                href="javascript:;"
+                >Безкоштовна консультація</a
+              >
+              <ul class="footer_list">
+                <li>
+                  <a
+                    class="footer_phone"
+                    href="tel:380935056542"
+                    target="_blank"
+                    >+380 (93) 505 65 42</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="footer_posht"
+                    href="yourlawyer.od@gmail.com"
+                    target="_blank"
+                    >yourlawyer.od@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="footer_adress"
+                    href="https://www.google.com.ua/maps/place/%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD,+%D0%9E%D0%B4%D0%B5%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.4586348,30.6995892,13z/data=!3m1!4b1!4m5!3m4!1s0x40c633d3e7db19f7:0x7a2282d913470c1e!8m2!3d46.4677633!4d30.7463506?hl=uk"
+                    target="_blank"
+                    >г. Одесса</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer_map">
+              <iframe
+                height="250"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175899.85463333526!2d30.571705559548402!3d46.45988648979983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1611069227483!5m2!1sru!2sua"
+                frameborder="0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copy">
+          <div class="container">
+            <div class="copy_text">
+              © 2020 made by Alexander Horbatiuk Все права защищены.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="animatedModal">
+      <form action="telegram.php" method="POST">
+        <label
+          >Тема питання
+          <select name="select" required>
+            <option>Послуги для бізнесу</option>
+            <option>Послуги для неприбуткових організацій</option>
+            <option>Сімейне право</option>
+            <option>Цивільне та адміністративне право</option>
+            <option>Ліцензування</option>
+            <option>Послуги для іноземних громадян</option>
+            <option>Бухгалтерське обслуговування</option>
+          </select>
+        </label>
+
+        <input type="text" placeholder="Bаше имя" name="user_name" required />
+        <input
+          type="text"
+          name="user_phone"
+          required
+          maxlength="13"
+          placeholder="Bаш телефон"
+        />
+        <input type="submit" value="Отправить" />
+      </form>
+    </div>
+  </body>
 </html>
