@@ -6,3 +6,16 @@
 .menu .header_сareer {
     border: 1px solid #ffc222;
 }
+
+
+
+.about {
+    background: url(../img/slider_fon.jpg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding: 100px 0px 45px;
+}
+
+.about_text{
+    color: #ffffff;
+}

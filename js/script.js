@@ -15,14 +15,5 @@ $(() =>{
   $(".services_item").click(function () {
     $(this).toggleClass("active");
   });
-
-  // $(".services_item .services_item_link").on("click", function () {
-  //   $(".services_item").toggleClass("active");
-  // });
-
-  // $(".services_item .services_item_link").on("click", function () { 
-  //   $(".services_item").addClass("active");
-  //   $(this).removeClass("active");
-  // });
 })
 

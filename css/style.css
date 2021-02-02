@@ -737,6 +737,12 @@ body{
     margin: 0px 0px 30px;   
 }
 
+
+.blog_page {
+    color: #4f64e0;
+    outline: none;
+}
+
 .news_slider_author {
     letter-spacing: 0.1px;
     color: #212020;
@@ -747,6 +753,7 @@ body{
 .news_slider_inner .slick_btn {
     top: auto;
     bottom: -110px;
+    
 }
 
 .news_slider_inner .slick-next {

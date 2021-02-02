@@ -191,9 +191,8 @@
         border-bottom: 1px solid #fff;
     }
 
-    .container .slider_inner  ul {
-        
-        bottom: -100px;
+    .container .slider_inner  ul {    
+        bottom: -60px;
     }
 }
 
